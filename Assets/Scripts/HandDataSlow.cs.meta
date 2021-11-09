@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: d8bf8e8fb49c6b742a68b74f37923825
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - CapHandLPre: {fileID: 188576, guid: 869d20cdda15af24aab9e72b5f2eec78, type: 3}
+  - CapHandRPre: {fileID: 188576, guid: 39d18871c11b53c4082d8202e3db68a3, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

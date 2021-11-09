@@ -1,0 +1,2 @@
+C:\Users\Jon\Leap Motion\obj\Debug\Assembly-CSharp-firstpass.csprojAssemblyReference.cache
+C:\Users\Jon\Leap Motion\obj\Debug\Assembly-CSharp-firstpass.csproj.CoreCompileInputs.cache
