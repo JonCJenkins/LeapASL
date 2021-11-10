@@ -48,7 +48,7 @@ namespace Leap.Unity
                 g = guessTextObject.GetComponent<Text>();
                 g.text = "";
 
-                //GuessingServer();
+                GuessingServer();
                 _guessRequester = new GuessRequester();
             }
         }

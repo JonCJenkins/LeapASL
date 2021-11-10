@@ -265,7 +265,7 @@ namespace Leap.Unity
                 GuessManager.handDataGuess = handData;
                 GuessManager.newGuess = true;
             }
-
+            Debug.Log(ButtonManager.CurrentWord);
             WriteString(handData);
         }
 

@@ -40,6 +40,7 @@ namespace Leap.Unity
             {
                 //HandData.path = "Assets/Data/" + go.name + ".txt";
                 CurrentWord = go.name;
+                Debug.Log(CurrentWord);
                 SceneManager.LoadScene(2);
             }
             else

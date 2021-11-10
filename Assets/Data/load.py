@@ -92,7 +92,7 @@ TFDict = {
 
 sc = pickle.load(open('StandardScalar.sav','rb'))
 le = pickle.load(open('LabelEncoder.sav','rb'))
-i = 0
+
 while True:
     d = socket.recv()
     d = d.decode(encoding='utf-8')
@@ -115,8 +115,5 @@ while True:
     pred = pd.DataFrame(np.argmax(y_pred, axis=1))
     guess = le.inverse_transform(pred.values.ravel())
     guess = str(guess[0])
-    i = i + 1
-    if(i == 100):
-        break
     print("Sending Guess:",guess)
     socket.send_string(guess)
