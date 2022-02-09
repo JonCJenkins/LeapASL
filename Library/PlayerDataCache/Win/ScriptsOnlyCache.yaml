@@ -1,9 +1,14 @@
 ScriptsOnlyBuild:
   usedScripts:
+    Assembly-CSharp-firstpass.dll:
+    - WindowsVoice
     Assembly-CSharp.dll:
     - Leap.Unity.ButtonManager
+    - Leap.Unity.GuessManager
     - Leap.Unity.HandDataSlow
+    - Leap.Unity.PythonInterfacer
     - Leap.Unity.TextManager
+    - Leap.Unity.TextToSpeech
     LeapMotion.dll:
     - Leap.Unity.CapsuleHand
     - Leap.Unity.HandEnableDisable
@@ -46,21 +51,23 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1482}
+      Script: {instanceID: 1490}
     - Class: 114
-      Script: {instanceID: 1946}
+      Script: {instanceID: 1954}
     - Class: 114
-      Script: {instanceID: 2184}
+      Script: {instanceID: 2192}
     - Class: 114
-      Script: {instanceID: 2250}
+      Script: {instanceID: 2258}
     - Class: 114
-      Script: {instanceID: 2360}
+      Script: {instanceID: 2368}
     - Class: 114
-      Script: {instanceID: 2498}
+      Script: {instanceID: 2508}
     - Class: 114
-      Script: {instanceID: 2662}
+      Script: {instanceID: 2674}
     - Class: 114
-      Script: {instanceID: 2752}
+      Script: {instanceID: 2764}
+    - Class: 114
+      Script: {instanceID: 3800}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -99,21 +106,21 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1482}
+      Script: {instanceID: 1490}
     - Class: 114
-      Script: {instanceID: 1946}
+      Script: {instanceID: 1954}
     - Class: 114
-      Script: {instanceID: 2184}
+      Script: {instanceID: 2192}
     - Class: 114
-      Script: {instanceID: 2250}
+      Script: {instanceID: 2258}
     - Class: 114
-      Script: {instanceID: 2360}
+      Script: {instanceID: 2368}
     - Class: 114
-      Script: {instanceID: 2498}
+      Script: {instanceID: 2508}
     - Class: 114
-      Script: {instanceID: 2662}
+      Script: {instanceID: 2674}
     - Class: 114
-      Script: {instanceID: 2752}
+      Script: {instanceID: 2764}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -154,33 +161,39 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1482}
+      Script: {instanceID: 1490}
     - Class: 114
-      Script: {instanceID: 1582}
+      Script: {instanceID: 1590}
     - Class: 114
-      Script: {instanceID: 1946}
+      Script: {instanceID: 1954}
     - Class: 114
-      Script: {instanceID: 2022}
+      Script: {instanceID: 2030}
     - Class: 114
-      Script: {instanceID: 2086}
+      Script: {instanceID: 2094}
     - Class: 114
-      Script: {instanceID: 2152}
+      Script: {instanceID: 2160}
     - Class: 114
-      Script: {instanceID: 2184}
+      Script: {instanceID: 2192}
     - Class: 114
-      Script: {instanceID: 2250}
+      Script: {instanceID: 2258}
     - Class: 114
-      Script: {instanceID: 2360}
+      Script: {instanceID: 2368}
     - Class: 114
-      Script: {instanceID: 2498}
+      Script: {instanceID: 2508}
     - Class: 114
-      Script: {instanceID: 2662}
+      Script: {instanceID: 2646}
     - Class: 114
-      Script: {instanceID: 2752}
+      Script: {instanceID: 2674}
     - Class: 114
-      Script: {instanceID: 2884}
+      Script: {instanceID: 2764}
     - Class: 114
-      Script: {instanceID: 3516}
+      Script: {instanceID: 2904}
+    - Class: 114
+      Script: {instanceID: 3400}
+    - Class: 114
+      Script: {instanceID: 3540}
+    - Class: 114
+      Script: {instanceID: 4066}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -202,59 +215,6 @@ ScriptsOnlyBuild:
     - Class: 258
       Script: {instanceID: 0}
     - Class: 850595691
-      Script: {instanceID: 0}
-    Assets/Scenes/Scene_3_Alphabet.unity:
-    - Class: 1
-      Script: {instanceID: 0}
-    - Class: 4
-      Script: {instanceID: 0}
-    - Class: 20
-      Script: {instanceID: 0}
-    - Class: 21
-      Script: {instanceID: 0}
-    - Class: 28
-      Script: {instanceID: 0}
-    - Class: 48
-      Script: {instanceID: 0}
-    - Class: 81
-      Script: {instanceID: 0}
-    - Class: 89
-      Script: {instanceID: 0}
-    - Class: 104
-      Script: {instanceID: 0}
-    - Class: 108
-      Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 1482}
-    - Class: 114
-      Script: {instanceID: 1946}
-    - Class: 114
-      Script: {instanceID: 2184}
-    - Class: 114
-      Script: {instanceID: 2250}
-    - Class: 114
-      Script: {instanceID: 2360}
-    - Class: 114
-      Script: {instanceID: 2498}
-    - Class: 114
-      Script: {instanceID: 2662}
-    - Class: 114
-      Script: {instanceID: 2752}
-    - Class: 115
-      Script: {instanceID: 0}
-    - Class: 128
-      Script: {instanceID: 0}
-    - Class: 157
-      Script: {instanceID: 0}
-    - Class: 196
-      Script: {instanceID: 0}
-    - Class: 213
-      Script: {instanceID: 0}
-    - Class: 222
-      Script: {instanceID: 0}
-    - Class: 223
-      Script: {instanceID: 0}
-    - Class: 224
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -347,12 +307,6 @@ ScriptsOnlyBuild:
     assemblyName: LeapMotion.dll
     namespaceName: Leap.Unity
     className: LeapXRServiceProvider
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Leap.Unity
-    className: HandData
   - hash:
       serializedVersion: 2
       Hash: 344a8c2e106a0a4e098e91a52e0af063
@@ -581,6 +535,12 @@ ScriptsOnlyBuild:
     assemblyName: LeapMotion.dll
     namespaceName: Leap.Unity.Attachments
     className: AttachmentPointBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Leap.Unity
+    className: TextToSpeech
   - hash:
       serializedVersion: 2
       Hash: 748dd2a2a28da4e618912da5ac45684b
@@ -841,6 +801,12 @@ ScriptsOnlyBuild:
     className: SignalTrack
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: 
+    className: WindowsVoice
+  - hash:
+      serializedVersion: 2
       Hash: aba7b2852ef61d175dd9602e7723d5e5
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -949,6 +915,12 @@ ScriptsOnlyBuild:
     className: LeapSpaceAnchor
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Leap.Unity
+    className: PythonInterfacer
+  - hash:
+      serializedVersion: 2
       Hash: af674031a8db313b88d59a4998db6370
     assemblyName: LeapMotion.dll
     namespaceName: Leap.Unity.Space
@@ -977,6 +949,12 @@ ScriptsOnlyBuild:
     assemblyName: LeapMotion.dll
     namespaceName: Leap.Unity.RuntimeGizmos
     className: RuntimeGizmoManager
+  - hash:
+      serializedVersion: 2
+      Hash: e0ef2bcb342df4e7beca5b9a5ae50c3c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Leap.Unity
+    className: GuessManager
   - hash:
       serializedVersion: 2
       Hash: 8220b46879dc5e37db1b940c938f5744
@@ -1018,5 +996,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Scene_0_Title 1.unity
   - Assets/Scenes/Scene_1_Words 1.unity
   - Assets/Scenes/Scene_2_Testing.unity
-  - Assets/Scenes/Scene_3_Alphabet.unity
-  playerPath: C:/Users/Jon/Desktop/Leap Motion/Leap Motion.exe
+  playerPath: C:/Users/Jon/Desktop/New folder/Leap Motion.exe
