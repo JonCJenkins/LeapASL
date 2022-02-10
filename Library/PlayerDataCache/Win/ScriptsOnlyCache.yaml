@@ -996,4 +996,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Scene_0_Title 1.unity
   - Assets/Scenes/Scene_1_Words 1.unity
   - Assets/Scenes/Scene_2_Testing.unity
-  playerPath: C:/Users/Jon/Desktop/New folder/Leap Motion.exe
+  playerPath: C:/Users/Jon/Leap Motion URF/Leap Motion - 2022 Spring/LeapASL_1.2/LeapASL_1.2.exe

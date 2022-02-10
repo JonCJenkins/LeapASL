@@ -11,6 +11,7 @@ namespace Leap.Unity
     {
         Text cw;
         string output;
+        string loadPath;
 
         private void Awake()
         {
@@ -38,7 +39,9 @@ namespace Leap.Unity
             startInfo.WindowStyle = System.Diagnostics.ProcessWindowStyle.Hidden;
             process.StartInfo.RedirectStandardOutput = true;
             startInfo.FileName = "cmd.exe";
-            startInfo.Arguments = @"/C cd Assets\Data&python load.py";
+            loadPath = @"/C cd " + Application.streamingAssetsPath + @"&python load.py";
+            startInfo.Arguments = loadPath;
+            //startInfo.Arguments = @"/C cd Assets\Data&python load.py";
             process.StartInfo = startInfo;
             process.Start();
             output = process.StandardOutput.ReadToEnd();

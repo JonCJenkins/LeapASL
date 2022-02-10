@@ -41,7 +41,8 @@ namespace Leap.Unity
             ringExtL, ringExtR,
             pinkyExtL, pinkyExtR;
 
-        public static string path = "Assets/Data/HandData.csv"; //Default data path
+        //public static string path = "Assets/Data/HandData.csv"; //Default data path
+        public static string path = Application.streamingAssetsPath + "/HandData.csv"; //Default data path
 
         int i = 0; //Integer that changes based on if both hands have been found yet
 
@@ -54,7 +55,8 @@ namespace Leap.Unity
         {
             if(ButtonManager.CurrentWord == "")
             {
-                path = "Assets/Data/GuessData.csv";
+                //path = "Assets/Data/GuessData.csv";
+                path = Application.streamingAssetsPath + "/GuessData.csv";
                 File.Delete(path);
             }
 

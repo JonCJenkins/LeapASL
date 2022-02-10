@@ -114,7 +114,7 @@ namespace Leap.Unity
             System.Diagnostics.ProcessStartInfo startInfo = new System.Diagnostics.ProcessStartInfo();
             startInfo.WindowStyle = System.Diagnostics.ProcessWindowStyle.Normal;
             startInfo.FileName = "cmd.exe";
-            startInfo.Arguments = @"/C cd Assets\Data&python load.py";
+            startInfo.Arguments = @"/C cd " + Application.streamingAssetsPath + @"&python load.py";
             process.StartInfo = startInfo;
             process.Start();
             Debug.Log("Python Server Running");
